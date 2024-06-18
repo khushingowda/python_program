@@ -1,0 +1,6 @@
+a=30
+b=15
+print("addition of two numbers = ",a+b)
+print("difference of two numbers = ",a-b)
+print("product of two numbers = ",a*b)
+print("quoitent of two numbers = ",a/b)
