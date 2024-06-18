@@ -1,0 +1,6 @@
+p=str(input("enter any character : "))
+if p=='a' or p=='e' or p=='i' or p=='o' or p=='u':
+    print("this is vowel")
+else:
+    print("this is consonant")
+print("end of the program")
