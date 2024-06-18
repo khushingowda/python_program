@@ -1,0 +1,5 @@
+p=int(input("enter the number : "))
+if p%2==0:
+    print("the number is : ",p)
+    print("this is even number")
+print("end of the program")
