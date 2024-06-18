@@ -1,0 +1,7 @@
+p=int(input("enter a number : "))
+n=int(input("enter a number : "))
+if p<n:
+    print(p , "is a minimal number")
+else:
+    print(n , "is a minimal number")
+print("end of the program")
