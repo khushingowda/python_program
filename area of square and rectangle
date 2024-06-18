@@ -1,0 +1,5 @@
+s=4
+print("area of square = ",s*s)
+l=5
+b=3
+print("area of rectangle = ",l*b)
