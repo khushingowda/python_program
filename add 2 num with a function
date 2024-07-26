@@ -1,0 +1,13 @@
+def num(a, b):
+    c = a + b
+    if c <= 9:
+        return c
+    elif c >= 10 and c <= 19:
+        return 20
+    else:
+        return c
+
+a = int(input("enter a number: "))
+b = int(input("enter a number: "))
+result = num(a, b)
+print(result)
