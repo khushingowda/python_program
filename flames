@@ -1,0 +1,22 @@
+def flames(boy,girl):
+    l1=list(boy)
+    l2=list(girl)
+    for i in boy:
+        if i in l2:
+            l1.remove(i)
+    for i in boy:
+        if i in l2:
+            l2.remove(i)
+    c=len(l1)+len(l2)
+    if c==1:
+        return "s"
+    elif c==2:
+        return "e"
+    elif c==3:
+        return "f"
+    elif c==4:
+        return "e"
+boy=str(input("enter a boy name"))
+girl=str(input("enter a girl name"))
+result=flames(boy,girl)
+print(result)
