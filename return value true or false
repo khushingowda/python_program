@@ -1,0 +1,9 @@
+def is_party_successful(cigars, is_weekend):
+        if is_weekend:
+            return cigars >= 40
+        else:
+            return 40 <= cigars <= 60
+
+cigars = int(input("Enter the number of cigars: "))
+is_weekend = input("Is it a weekend? (yes/no): ")
+print(is_party_successful(cigars, is_weekend))
