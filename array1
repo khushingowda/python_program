@@ -1,0 +1,11 @@
+def first_last6(num):
+    if num[0]==6 or num[len(num)-1]==6:
+        print("true")  
+    else:
+        print("false")  
+x=[6, 1, 2, 3]
+y=[1,2,3,6]
+z=[5,6,2,3]
+print(first_last6(x))
+print(first_last6(y))
+print(first_last6(z))
