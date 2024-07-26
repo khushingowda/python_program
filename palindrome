@@ -1,0 +1,7 @@
+lis=[1,0,2,0,1]
+lis1=lis[::-1]
+print("the new list is = ",lis1)
+if lis1==lis:
+    print("the given list is a palindrome")
+else:
+    print("the given list is not a palindrome")
