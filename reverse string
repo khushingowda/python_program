@@ -1,0 +1,6 @@
+string="raju had a very good day"
+list=string.split(" ")
+newString=" "
+for word in list:
+    newString=newString+word[::-1]+" "
+print(newString)
