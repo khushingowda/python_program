@@ -1,1 +1,21 @@
-
+balance=5000
+cash=4000
+pin=1234
+p=int(input("enter the pin"))
+amount=int(input("enter the amount to withdraw"))
+balance_amount=balance-amount
+if p==pin:
+    print("entered amount = ",amount)
+    if amount%100==0:
+        if amount<=balance:
+            if amount<=cash:
+                print("transaction successfull")
+                print("updated balance = ",balance_amount)
+            else:
+                print("cash is not available")
+        else:
+            print("insufficient funds")
+    else:
+        print("invalid amount")
+else:
+    print("invalid pin")
