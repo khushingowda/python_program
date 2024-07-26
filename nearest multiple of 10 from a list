@@ -1,0 +1,16 @@
+def multiple10(num,l):
+    ld=num%10
+    if ld<=5:
+        while num>=0:
+            if num%10==0 and num in l:
+                return num
+            num=num-1
+    else:
+                while num:
+                    if num%10==0 and num in l:
+                        return num 
+                    num =num+1
+l=[23,10,40,30,70,83,45,62,100]
+x=int(input("enter a number"))
+y=multiple10(x,l)                
+print(y)
