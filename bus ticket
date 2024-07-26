@@ -1,0 +1,33 @@
+s=int(input("enter start stage"))
+d=int(input("enter destination stage"))
+a=int(input("enter number of adults"))
+c=int(input("enter number of child"))
+x=d-s
+print("no. of stages = ",x)
+y=(a*x*10)
+z=(c*x*5)
+t=y+z
+if (a>=5):
+    dis=(20/100)*t
+    gst=(5/100)*t
+    tc=t-dis
+    tp=tc+gst
+    print("start stage = ",s)
+    print("destination = ",d)
+    print("no. of adults = ",a)
+    print("no. of child = ",c)
+    print("no. of stages = ",x)
+    print("total ticket price = ",tp)
+elif(a==4):
+    dis=(15/100)*t
+    gst=(5/100)*t
+    tc=t-dis
+    tp=tc+gst
+    print("start stage = ",s)
+    print("destination = ",d)
+    print("no. of adults = ",a)
+    print("no. of child = ",c)
+    print("no. of stages = ",x)
+    print("total ticket price = ",tp)
+    
+    
